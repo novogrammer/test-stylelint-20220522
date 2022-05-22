@@ -1,0 +1,12 @@
+// `npm run stylelint` failed when stylelint@14.8.3 and stylelint-config-twbs-bootstrap@3.0.1
+
+// stylelint@14.8.2 is ok
+
+.failed{
+  &__element{
+    background: {
+      color:#f00;
+      repeat: no-repeat;
+    }
+  }
+}

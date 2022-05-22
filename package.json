@@ -1,0 +1,18 @@
+{
+  "name": "test-stylelint-20220522",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint --formatter verbose --fix 'src/css/**/*.scss'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yusuke Kawamoto <novogrammer@gmail.com> (https://github.com/novogrammer/)",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^14.8.3",
+    "stylelint-config-twbs-bootstrap": "^3.0.1",
+    "stylelint-scss": "^4.2.0"
+  }
+}
