@@ -3,10 +3,8 @@
 // stylelint@14.8.2 is ok
 
 .failed{
-  &__element{
-    background: {
-      color:#f00;
-      repeat: no-repeat;
-    }
+  background: {
+    color:#f00;
+    repeat: no-repeat;
   }
 }

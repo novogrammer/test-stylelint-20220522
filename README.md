@@ -15,7 +15,7 @@ $ npm run stylelint
 > stylelint --formatter verbose --fix 'src/css/**/*.scss'
 
 Error: Expected a pseudo-class or pseudo-element.
-    at /Users/novo/Documents/projects/test-stylelint-20220522/src/css/failed.scss:7:5
+    at /Users/novo/Documents/projects/test-stylelint-20220522/src/css/failed.scss:6:3
     at Root._error (/Users/novo/Documents/projects/test-stylelint-20220522/node_modules/postcss-selector-parser/dist/parser.js:174:16)
     at Root.error (/Users/novo/Documents/projects/test-stylelint-20220522/node_modules/postcss-selector-parser/dist/selectors/root.js:43:19)
     at Parser.error (/Users/novo/Documents/projects/test-stylelint-20220522/node_modules/postcss-selector-parser/dist/parser.js:740:21)
